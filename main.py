@@ -28,5 +28,5 @@ async def add_mahasiswa(m:Mahasiswa):
         "Name": m.Name 
     }
     data[m.NIM] = data_maha
-    return {"message" : "sucess adding mahasiswa"}
+    return {"message" : "success adding mahasiswa", "data" : data}
     
